@@ -1,0 +1,20 @@
+$primary: #4e73df;
+$primary-light: lighten($primary, 35%);
+$primary-rgb: rgb(78, 115, 223);
+$secondary: #858796;
+$danger: #e74a3b;
+
+// Bordes
+$border-radius: 0.375rem;
+$border-radius-lg: 0.5rem;
+
+// Sombras
+$box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+
+// Variables CSS para acceso en componentes
+:root {
+  --primary: #{$primary};
+  --primary-light: #{$primary-light};
+  --primary-rgb: #{red($primary)}, #{green($primary)}, #{blue($primary)};
+  --secondary: #{$secondary};
+}
